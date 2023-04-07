@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas 14.2</title>
+  </head>
+  <body>
+    <form>
+      <h1><u>FORM LOGIN</u></h1>
+      <br>
+      <span>Jumlah minimal: 4, maksimal 8 karakter):</span>
+      <br>
+      <input type="text" name="username" placeholder="username"
+              minlength="4"
+              maxlength="8">
+      <br><br>
+      <span>Jumlah minimal: 5, maksimal 15 karakter):</span>
+      <br>
+      <input type="password" name="password"
+              minlength="5"
+              maxlength="15"
+              required
+              oninvalid="this.setCustomValidity('Masukkan setidaknya 5 karakter')">
+      <br><br>
+      <input type="submit" name="" value="Masuk">
+      <br><br>
+      <span>Semoga ilmu yang dipelajari berkah - Tugas 14.2</span>
+    </form>
+  </body>
+</html>
